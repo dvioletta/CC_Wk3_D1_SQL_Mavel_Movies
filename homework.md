@@ -31,7 +31,7 @@ SELECT name FROM people;
 3.  Oops! Someone at CodeClan spelled Anthony's name wrong! Change it to reflect the proper spelling ('Anthatony Starkes' should be 'Anthony Starke').
 UPDATE people
 SET name 'Anthatony Starkes', name 'Anthony Starke'
-WHERE id 18;
+WHERE id = 18;
 
 4.  Return ONLY your name from the 'people' table.
 
